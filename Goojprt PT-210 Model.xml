@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-models xmlns="http://www.jeremias-maerki.ch/ns/print">
+  
+  <printer-model>
+    <model>Goojprt PT-210</model>
+    <driver>ESC/POS</driver>
+    <escpos xmlns="http://www.jeremias-maerki.ch/ns/print/escpos">
+      <resolution feed="200" cross-feed="203"/>
+      <width max="384px"/> <!-- 57mm paper, printable width 48.77mm -->
+      <length min="10mm" max="100mm"/> <!-- 12.7mm to 1000mm -->
+    </escpos>
+  </printer-model>
+  
+</printer-models>

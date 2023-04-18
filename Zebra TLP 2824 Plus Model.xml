@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra TLP 2824 Plus</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="200" cross-feed="200"/>
+    <width min="19mm" max="60mm"/>
+    <length min="10mm" max="990mm"/>
+  </zpl2>
+</printer-model>

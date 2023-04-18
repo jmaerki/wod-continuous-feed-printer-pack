@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-models xmlns="http://www.jeremias-maerki.ch/ns/print">
+  
+  <printer-model>
+    <model>Epson TM-T90P</model>
+    <driver>ESC/POS</driver>
+    <escpos xmlns="http://www.jeremias-maerki.ch/ns/print/escpos">
+      <resolution feed="180" cross-feed="180"/>
+      <width max="720px"/> <!-- 62mm + 2*12px margin -->
+      <length min="150px" max="11811px"/> <!-- 12.7mm to 1000mm -->
+    </escpos>
+  </printer-model>
+  
+</printer-models>

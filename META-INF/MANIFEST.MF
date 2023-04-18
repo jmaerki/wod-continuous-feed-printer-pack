@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WOD :: Continuous-Feed Printer Model Collection
+Bundle-SymbolicName: ch.jm.wod.printers.cf-collection
+Bundle-Version: 23.4.0.dev
+Bundle-Vendor: Jeremias Maerki, Switzerland
+Bundle-Description: Contains model definitions for various continuous-feed printers (label or receipt printers).
+Bundle-License: https://creativecommons.org/publicdomain/zero/1.0/
+Bundle-DocURL: https://github.com/jmaerki/wod-continuous-feed-printer-pack

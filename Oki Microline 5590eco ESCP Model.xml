@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Oki ML5590eco ESC/P</model>
+  <driver>ESC/P</driver>
+  <escp xmlns="http://www.jeremias-maerki.ch/ns/print/escp">
+    <resolution feed="180" cross-feed="180"/>
+    <width max="220mm"/>
+    <length min="20mm" max="1000mm"/>
+  </escp>
+</printer-model>

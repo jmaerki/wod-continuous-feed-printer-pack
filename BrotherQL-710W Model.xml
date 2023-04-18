@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-models xmlns="http://www.jeremias-maerki.ch/ns/print">
+  
+  <printer-model>
+    <model>Brother QL-710W</model>
+    <driver>Brother QL Raster</driver>
+    <ql-raster xmlns="http://www.jeremias-maerki.ch/ns/print/brother-ql-raster">
+      <resolution feed="300" cross-feed="300"/>
+      <width max="62mm"/> <!-- = 732px, Printable area only 720px! -->
+      <length min="150px" max="11811px"/> <!-- 12.7mm to 1000mm -->
+
+      <tape-definitions>
+        <tape name="12mm" margin-left="585px" print-area="106px" margin-right="29px"/>
+        <tape name="29mm" margin-left="408px" print-area="306px" margin-right="6px"/>
+        <tape name="38mm" margin-left="295px" print-area="413px" margin-right="12px"/>
+        <tape name="50mm" margin-left="154px" print-area="554px" margin-right="12px"/>
+        <tape name="54mm" margin-left="130px" print-area="590px" margin-right="0px"/>
+        <tape name="62mm" margin-left="12px" print-area="696px" margin-right="12px"/>
+      </tape-definitions>
+      <die-cut-label-definitions>
+        <die-cut name="17mmx54mm" margin-left="555px" print-area="165px" margin-right="0px"/>
+        <die-cut name="17mmx87mm" margin-left="555px" print-area="165px" margin-right="0px"/>
+        <die-cut name="23mmx23mm" margin-left="442px" print-area="236px" margin-right="42px"/>
+        <die-cut name="29mmx42mm" margin-left="408px" print-area="306px" margin-right="6px"/>
+        <die-cut name="29mmx90mm" margin-left="408px" print-area="306px" margin-right="6px"/>
+        <die-cut name="38mmx90mm" margin-left="295px" print-area="413px" margin-right="12px"/>
+        <die-cut name="39mmx48mm" margin-left="289px" print-area="425px" margin-right="6px"/>
+        <die-cut name="52mmx29mm" margin-left="142px" print-area="578px" margin-right="0px"/>
+        <die-cut name="60mmx86mm" margin-left="24px" print-area="672px" margin-right="24px"/>
+        <die-cut name="62mmx29mm" margin-left="12px" print-area="696px" margin-right="12px"/>
+        <die-cut name="62mmx100mm" margin-left="12px" print-area="696px" margin-right="12px"/>
+        <!-- NIY
+          <die-cut name="58mm-dia" margin-left="51px" print-area="618px" margin-right="51px" length-offset="3mm"/>
+        -->
+      </die-cut-label-definitions>
+    </ql-raster>
+  </printer-model>
+  
+</printer-models>
