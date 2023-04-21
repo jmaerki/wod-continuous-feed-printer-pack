@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>cab SQUIX 4 300dpi</model>
+  <driver>cab JScript</driver>
+  <jscript xmlns="http://www.jeremias-maerki.ch/ns/print/cab/JScript">
+    <resolution feed="300" cross-feed="300"/>
+    <width min="4mm" max="1250px"/>
+    <length min="6mm" max="2000mm"/>
+    <print-speeds>30, 40, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300</print-speeds>
+  </jscript>
+</printer-model>
