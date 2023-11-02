@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra GX430t</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="300" cross-feed="300"/>
+    <width min="51mm" max="104mm"/>
+    <length min="9.6mm" max="991mm"/>
+  </zpl2>
+</printer-model>

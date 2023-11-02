@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra ZT-411 (600dpi)</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="600" cross-feed="600"/>
+    <width min="25.4mm" max="104mm"/>
+    <length min="12.7mm" max="508mm"/>
+  </zpl2>
+</printer-model>

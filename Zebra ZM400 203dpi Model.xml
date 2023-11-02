@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra ZM400 (203dpi)</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="203" cross-feed="203"/>
+    <width min="25.4mm" max="104mm"/>
+    <length min="1px" max="3988mm"/>
+  </zpl2>
+</printer-model>
