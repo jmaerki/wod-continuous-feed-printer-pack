@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-models xmlns="http://www.jeremias-maerki.ch/ns/print">
+  
+  <printer-model>
+    <model>Star TSP800II Series</model> <!-- Includes the TSP847II -->
+    <driver>ESC/POS</driver>
+    <escpos xmlns="http://www.jeremias-maerki.ch/ns/print/escpos">
+      <resolution feed="203" cross-feed="203"/>
+      <width max="104mm"/> <!-- 112 or 80mm paper, printable width 104 or 72mm -->
+      <length min="24px" max="1000mm"/> <!-- Assumptions: 24px to 1000mm -->
+    </escpos>
+  </printer-model>
+  
+</printer-models>
