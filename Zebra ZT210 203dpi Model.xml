@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra ZT210 (203dpi)</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="203" cross-feed="203"/>
+    <width min="19mm" max="108mm"/>
+    <length min="12.7mm" max="991mm"/>
+  </zpl2>
+</printer-model>
