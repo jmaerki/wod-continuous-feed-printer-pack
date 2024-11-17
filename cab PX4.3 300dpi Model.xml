@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>cab PX4.3 300dpi</model>
+  <driver>cab JScript</driver>
+  <jscript xmlns="http://www.jeremias-maerki.ch/ns/print/cab/JScript">
+    <resolution feed="300" cross-feed="300"/>
+    <width min="10mm" max="108.4mm"/>
+    <length min="6mm" max="4000mm"/>
+    <print-speeds>75, 100, 125, 150</print-speeds>
+  </jscript>
+</printer-model>
