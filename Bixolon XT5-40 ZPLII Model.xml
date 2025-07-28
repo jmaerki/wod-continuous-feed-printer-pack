@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Bixolon XT5-40 BPL-Z</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="203" cross-feed="203"/>
+    <width min="25mm" max="104mm"/>
+    <length min="10mm" max="4000mm"/>
+    <!-- real length/@min is assumed, not known. -->
+  </zpl2>
+</printer-model>
