@@ -6,7 +6,7 @@
     <driver>Brother QL Raster</driver>
     <ql-raster xmlns="http://www.jeremias-maerki.ch/ns/print/brother-ql-raster">
       <resolution feed="300" cross-feed="300"/>
-      <width max="62mm"/> <!-- = 732px, Printable area only 720px! -->
+      <width max="720px"/> <!-- 62mm = 732px, Printable area only 720px! -->
       <length min="150px" max="11811px"/> <!-- 12.7mm to 1000mm -->
 
       <tape-definitions>
