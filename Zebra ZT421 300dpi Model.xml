@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<printer-model xmlns="http://www.jeremias-maerki.ch/ns/print">
+  <model>Zebra ZT421 300dpi</model>
+  <driver>ZPL II</driver>
+  <zpl2 xmlns="http://www.jeremias-maerki.ch/ns/print/zpl">
+    <resolution feed="300" cross-feed="300"/>
+    <width min="51mm" max="168mm"/>
+    <length min="12.7mm" max="991mm"/>
+    <print-speeds>61, 86.4, 111.8, 137.2, 162.6, 188, 213.4, 238.8, 264.2, 289.6, 315</print-speeds>
+  </zpl2>
+</printer-model>
